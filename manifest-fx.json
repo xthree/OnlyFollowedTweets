@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "OnlyFollowedTweets",
+  "version": "1.1",
+
+  "description": "Removes tweets in your timeline that don't belong there, such as tweets liked by people you follow.",
+
+  "icons": {
+    "96": "OFT-Logo-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.twitter.com/","https://twitter.com/"],
+      "js": ["jquery-3.2.1.min.js","content.js"]
+    }
+  ]
+
+}
