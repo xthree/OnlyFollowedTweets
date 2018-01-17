@@ -1,4 +1,4 @@
-var timer = setInterval(hideTweets,5000);
+var timer = setInterval(hideTweets,2000);
  
  
 function hideTweets() {
